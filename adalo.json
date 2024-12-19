@@ -3,11 +3,13 @@
   "components": [
     {
       "name": "CustomStaticMap",
-      "manifest": "./src/components/CustomMaps/manifest.json"
+      "manifest": "./src/components/CustomStaticMap/manifest.json"
     }
   ],
   "author": "Nicageek.com",
   "description": "Custom Maps Library",
   "details": "This is an open source compilation of components to insert maps in adalo. Find more in Nicageek.com",
-  "logo": "./Nicageek-Maps.png"
+  "logo": "./logo.png",
+  "demoAppURL":"https://previewer.adalo.com/67179f2d-c33e-47d6-9923-c237d4fed74e",
+  "supportURL": "https://nicageek.com/contacto"
 }

@@ -3,7 +3,7 @@ import {View, StyleSheet, Image} from 'react-native'
 
 
 
-const CustomMaps = (props) => {
+const CustomStaticMap = (props) => {
 	const {lat,long,hgt,wdt,zoom,lang,theme} = props
 
 	const mapUri = `https://static-maps.yandex.ru/1.x/?lang=${lang}&ll=${long},${lat}&z=${zoom}&l=map&size=${wdt},${hgt}&pt=${long},${lat},pm2rdm`;
@@ -36,4 +36,4 @@ const styles = StyleSheet.create({
 
 })
 
-export default CustomMaps
+export default CustomStaticMap

@@ -1,0 +1,74 @@
+{
+  "displayName": "Custom Stactic Map",
+  "defaultWidth": 400,
+  "defaultHeight": 200,
+  "components": "./index.js",
+  "icon": "./nicageek-map-thumb.png",
+  "resizeX": false,
+  "props": [
+    {
+      "name": "lat",
+      "displayName": "Latitude",
+      "type": "number",
+      "default": 12.1364
+    },
+    {
+      "name": "long",
+      "displayName": "Longitude",
+      "type": "number",
+      "default": -86.2519
+    },
+    {
+      "name": "hgt",
+      "displayName": "Heigth",
+      "type": "number",
+      "control":{
+        "type":"slider",
+        "min": 5,
+        "max":450
+      },
+      "default": 200
+    },
+    {
+      "name": "wdt",
+      "displayName": "Width",
+      "type": "number",
+      "control":{
+        "type":"slider",
+        "min": 5,
+        "max":650
+      },
+      "default": 400
+    },
+    {
+      "name": "zoom",
+      "displayName": "Zoom",
+      "type":"number",
+      "control":{
+        "type": "slider",
+        "min": 5,
+        "max": 20
+      },
+      "default": 12
+    },
+
+    {
+      "name": "lang",
+      "displayName": "Language",
+      "type":"text",
+      "control":{
+        "type": "menu",
+        "options":[{
+          "label" : "English",
+          "value" : "en_US"
+        },
+        {
+          "label" : "Español",
+          "value" : "es_la"
+        }
+      ]
+      },
+      "default": "en_US"
+    }
+  ]
+}

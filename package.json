@@ -1,6 +1,6 @@
 {
   "name": "custom-maps",
-  "description": "",
+  "description": "This is an open source component to insert statics maps in adalo using Yandex static API. Find more in Nicageek.com",
   "version": "1.0.0",
   "main": "index.js",
   "license": "ISC",
@@ -15,10 +15,5 @@
     "react": "^18.2.0",
     "react-art": "^18.0.0",
     "react-dom": "18.0.0"
-  },
-  "dependencies": {
-    "react-native": "0.72.5",
-    "react-native-maps": "^1.20.1",
-    "react-native-web": "^0.19.13"
   }
 }

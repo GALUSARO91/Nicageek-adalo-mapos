@@ -8,8 +8,8 @@
   ],
   "author": "Nicageek.com",
   "description": "Custom Maps Library",
-  "details": "This is an open source compilation of components to insert maps in adalo. Find more in Nicageek.com",
+  "details": "This is an open source component to insert statics maps in adalo using Yandex static API. Find more in Nicageek.com",
   "logo": "./logo.png",
-  "demoAppURL":"https://previewer.adalo.com/67179f2d-c33e-47d6-9923-c237d4fed74e",
+  "demoAppURL": "https://previewer.adalo.com/67179f2d-c33e-47d6-9923-c237d4fed74e",
   "supportURL": "https://nicageek.com/contacto"
 }
